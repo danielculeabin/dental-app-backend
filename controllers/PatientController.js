@@ -35,7 +35,7 @@ const create = async function (req, res) {
   }
 };
 
-//* II.A Get All Patients
+//* II. A Get All Patients
 const showAll = async function (req, res) {
   try {
     const docs = await Patient.find({}); 
@@ -77,7 +77,7 @@ const showOne = async function (req, res) {
   }
 };
 
-//* III. Update Existing Patient by ID
+//* III. Update Existing Patient
 const update = async function (req, res) {
   const patientId = req.params.id;
 
@@ -122,7 +122,7 @@ const update = async function (req, res) {
   }
 };
 
-//* IV. Delete Existing Patient by ID
+//* IV. Delete Existing Patient
 const remove = async function (req, res) {
   const id = req.params.id;
 

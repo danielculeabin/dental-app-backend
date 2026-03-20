@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { Vonage } = require('@vonage/server-sdk');
 
 const vonage = new Vonage({

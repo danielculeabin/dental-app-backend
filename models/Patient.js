@@ -6,7 +6,6 @@ const PatientSchema = new Schema(
     id: String,
     fullname: String,
     phone: String,
-    //appointments: [{ type: Schema.Types.ObjectId, ref: 'Patient' }]
   },
   {
     timestamps: true,

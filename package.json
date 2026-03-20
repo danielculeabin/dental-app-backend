@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
+    "dev": "nodemon --no-deprecation index.js",
     "db": "mongod --dbpath ./data"
   }
 }
